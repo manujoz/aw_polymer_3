@@ -1,16 +1,12 @@
 {
 	"name": "aw_polymer_3",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"description": "Biblioteca Polymer 3 preparada para trabajar sin polyfills en navegadores compatibles con Web Components y Shadow DOM.",
 	"keywords": [
 		"Polymer 3",
 		"Web Components",
 		"Arisman Webs"
 	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/manujoz/aw_polymer_3.git"
-	},
 	"dependencies": {
 		"aw_webcomponents": "^1.0.0"
 	},
