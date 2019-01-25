@@ -20,6 +20,24 @@ Este paquete no requiere el uso de ningún CLI, puedes empezar a trabajar con é
 
 También se han ajustado los módulos para que las importaciones de éstos funcione sin nombres de paquetes, de manera que se ajustan al estandar de los navegadores al hacer uso de rutas completas.
 
+### Funciones especiales para la programación web
+
+Se añaden a la clase **Polymer** a partir de la **versión 1.1.4 de aw_polymer_3** los aw-effects más usados para no tener que cargarlos por separado. Estos efectos, más bien funciones, son funciones prácticas que se usan normalmente en el desarrollo de una web que antes nos ofrecía la biblioteca 'jQuery'.
+
+Las funciones que se añaden son:
+
+- <a href="https://www.npmjs.com/package/aw_effects#aw-animate)">aw-animate</a>: Función que permite alimar elementos del DOM de manera sencilla utilizando el motor de animación del navegador CSS.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-colors">aw-colors</a>: Función que permite convertir colores entre formatos o saber el contraste de un color.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-fade">aw-fade</a>: Función que permite mostrar/ocultar un elemento con un efecto de aparición/desaparición.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-liste-dom">aw-listen-dom</a>: Función que permite escuchar eventos en un elemento o varios elementos de la página independientemente de que estos estén o no en el DOM cuando se ponen a la escucha. Es una función similar a ``JQuery.on()`` hecha para Polymer.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-parallax">aw-parallax</a>: Función que permite crear el efecto Parallax sobre un componente de manera sencilla.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-scroll">aw-scroll</a>: Función que permite deslizar el scroll de la página de manera suave a través de javascript.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-slide">aw-slide</a>: Función que permite mostrar/ocultar un elemento con un efecto de persiana.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-slider-element">aw-slider-element</a>: Función que permite hacer que un elemento sea deslizante sobre su elemente padre al hacer scroll. Por ejemplo, si tenemos dos columnas y queremos que el elemento de una columna esté siempre visible al bajar o subir el scroll.
+- <a href="https://www.npmjs.com/package/aw_effects#aw-textarea-adjust">aw-textarea-adjust</a>: Convierte un textarea en un textarea que se vaya ajustando en altura según se va escribiendo en él.
+
+Para saber más del funcionamiento de estos efectos, visitar los enlaces de cada uno.
+
 ___
 
 ## Instalación y uso
