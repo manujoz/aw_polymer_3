@@ -1,6 +1,6 @@
 {
 	"name": "aw_polymer_3",
-	"version": "1.1.12",
+	"version": "1.1.13",
 	"description": "Biblioteca Polymer 3 preparada para trabajar sin polyfills en navegadores compatibles con Web Components y Shadow DOM.",
 	"keywords": [
 		"Polymer 3",
