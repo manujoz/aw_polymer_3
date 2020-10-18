@@ -192,7 +192,7 @@ class PolymerClass extends Colors
 		 * @param duration Duración que queremos que tenga la animación, por defecto 500
 		 * @param scrollable Elemento sobre el que queremos hacer scroll, por defecto window
 		 */
-		toElement: ( el: Element, margin: number, duration: number, scrollable?: Element ) => void,
+		toElement: ( el: Element, margin?: number, duration?: number, scrollable?: Element ) => void,
 
 		/**
 		 * @function top
@@ -267,7 +267,7 @@ class PolymerClass extends Colors
 		 * @param settings Configuración {{headFixHeight:number,footerFixHeight:number,minWidth:number,marginStart:number}}
 		 * @param scrollable Elemento scrollable que provovará la animación, por defecto Window.
 		 */
-		init: ( el: Element, settings: settingsScrollElement, scrollable: Element ) => void
+		init: ( el: Element, settings?: settingsScrollElement, scrollable?: Element ) => void
 	}
 
 	/**
@@ -282,7 +282,7 @@ class PolymerClass extends Colors
 		 * @param el Textarea que queremos que sea ajustable
 		 * @param settings Configuración del textarea
 		 */
-		init: ( el: Element, settings: object ) => void
+		init: ( el: Element, settings?: settginsTextAreaAdjust ) => void
 	}
 }
 
