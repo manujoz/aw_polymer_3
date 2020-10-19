@@ -519,9 +519,9 @@ Polymer.SliderElement.init( el, {}, main);
 	<a href="https://www.npmjs.com/package/@polymer/polymer">Polymer Original</a>
 </p>
 
-<p style="text-align: center; padding: 0 0">
-    <b>Contacto</b><br><br>Manu J. Overa<br><a href="mailto:manu.overa@arismanwebs.es">manu.overa@arismanwebs.es</a><br><br>
-    Diseño Web - <a href="https://arismanwebs.es">Arisman Webs</a>
+<p style="text-align: center; padding: 50px 0">
+    <b>Contacto</b><br><br>Manu J. Overa<br><a href="mailto:manu.giralda@gmail.com">manu.giralda@gmail.com</a><br><br>
+    <!-- Diseño Web - <a href="https://arismanwebs.es">Arisman Webs</a> -->
 </p>
 
 
